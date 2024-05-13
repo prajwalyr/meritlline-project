@@ -1,0 +1,392 @@
+body{
+  background: #dbd7d7;
+}
+.row{
+    margin-right: 0 !important;
+}
+
+.right{
+  float: right;
+}
+.about-img{
+  width: 100%;
+}
+img.card-img-top {
+    height: 140px;
+}
+#cover-img {
+  background-image: url("/img/cover-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 47rem;
+}
+
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dark-section{
+  color: #fff;
+  background: rgba(10, 9, 34, 0.952);
+}
+.dark-section a{
+  color: #fff !important;
+}
+
+.light-section a, .collegeCard a{
+  color: #000 !important;
+}
+
+.collegeCard a:hover{
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+p {
+  font-family: "Oxygen", sans-serif;
+  line-height: 1.8em;
+}
+
+.cover-text {
+  position: relative;
+  color: #fff;
+  top: 15rem;
+}
+
+.cover-heading{
+    font-size: 3.5rem;
+}
+
+.meritline{
+    color: #ffbc09;
+}
+
+.getInTouch,.about-container,.button-center,.collegeCard,.topBanner,.pageHeading,#counselling, #leading-streams, #awards, #howItWorks, #cover-img, .quickLinks, .contacts, .social{
+    text-align: center;
+}
+
+.light-section{
+  color: #000 !important;
+}
+
+#awards{
+  background-color: #ddd;
+}
+
+#awards a{
+  color: grey;
+}
+
+.form-row{
+  text-align: left;
+}
+
+.copyright{
+  font-size: small;
+  background: #000;
+  text-align: center;
+}
+
+.hover-light:hover, .hover-light:hover a{
+  background: #ffbc09;
+  color: rgba(10, 9, 34, 0.952) !important;
+  border-radius: 10px;
+}
+
+.hover-dark:hover, .hover-dark:hover a, .social a:hover {
+  background: rgba(10, 9, 34, 0.952);
+  color:  #ffbc09 !important;
+  border-radius: 10px;
+}
+
+.topBanner{
+  background: url("/img/cover-img2.jpg");
+}
+
+.searchForm, .collegeHeading{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 0;
+}
+
+.pageHeading{
+  padding: 30px;
+}
+
+.pageHeading h1{
+  margin-bottom: 0;
+}
+
+.collegeHeading{
+  color: #fff;
+}
+
+.form-heading{
+  border-radius: 5px;
+  background: rgba(10, 9, 34, 0.952);
+  color: #fff;
+  text-align: center;
+  max-width: 80%;
+  margin-bottom: -30px;
+  position: relative;
+  z-index: 2;
+}
+
+.contact-box,.form-body{
+  box-shadow: 0 0 5px 0.5px grey;
+  border-radius: 5px;
+  position: relative;
+}
+
+.form-body .form-group{
+  margin-bottom: 0;
+}
+
+.form-body form{
+  max-width: 80%;
+}
+
+.form-body input{
+  border: none;
+  border-bottom: 1px solid rgba(10, 9, 34, 0.952);
+  border-radius: 0;
+}
+
+.form-body form button{
+  background: rgba(10, 9, 34, 0.952);
+  color: #fff;
+}
+
+.form-body form button:hover{
+  background: #fff;
+  color: rgba(10, 9, 34, 0.952);
+  border: 1px solid rgba(10, 9, 34, 0.952);
+}
+
+.form-container{
+  position: sticky;
+}
+
+.nav-pills .nav-link{
+  color: rgba(10, 9, 34, 0.952) !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff !important;
+  background-color: rgba(10, 9, 34, 0.952) !important;
+}
+
+.banner{
+  color: #fff;
+  text-align: center;
+  background: url("/img/cover-img2.jpg");
+  height: 30%;
+}
+
+.banner h1{
+  margin-bottom: 0;
+  padding: 80px 0 80px 0;
+}
+
+.chooseUs{
+  text-align: center;
+  width: 75%;
+}
+
+.contact-box{
+  text-align: left;
+  border-radius: 15px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+/*@media only screen and (max-width: 768px) {*/
+/*  .whatsapp-btn{*/
+/*    position: fixed;*/
+/*    text-align: center;*/
+/*    bottom: 3.5% !important;*/
+/*    left: 3%;*/
+/*}*/
+/*}*/
+.whatsapp-btn{
+    text-align: center;
+    bottom: 120px;
+    right: 20px;
+    background: #00e676;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: fixed;
+    z-index: 9999;
+    text-shadow: 0 0 1px #eee;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+.whatsapp-btn a{
+    position: relative;
+    top: 0.85rem;
+    color: #fff;
+}
+.whatsapp-btn a:hover{
+    color: #fff;
+}
+.right{
+    float: right;
+}
+.text-left{
+  text-align: left;
+}
+.price{
+  font-size: larger;
+}
+.price-btn{
+  border: none;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background: #0A0922;
+  border-radius: 100px;
+}
+.price-btn:hover{
+  text-decoration: none;
+  background: white;
+  color: #0A0922;
+  border: 2px solid #0A0922;
+  font-weight: 400;
+}
+.price-card{
+  border: 2px solid #0A0922 !important;
+  border-radius: 30px !important;
+}
+.popup-container{
+            text-align: center;
+        }
+        .popup-input{
+            margin-left: 10px;
+            border: none;
+            border-bottom: 2px solid #ddd;
+            width: 70%;
+            line-height: 1.8rem;
+            outline: none;
+        }
+        .popup-container label{
+            margin-bottom: 20px;
+        }
+        .modal-footer{
+            justify-content: center !important;
+            background: #0A0922;
+        }
+        .modal-footer a{
+            color: #fff;
+        }
+        .modal-footer a:hover{
+            color: #fff;
+            text-decoration: none;
+        }
+        .fa-color-purple{
+            color: #0A0922;
+        }
+        .popup-greeting{
+            font-size: larger;
+            font-weight: 700;
+            color: #0A0922;
+        }
+.review-block {
+    padding: 15px 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3cadfe #F4B400 #0F9D58 #F57E02;
+}
+@media (min-width: 450px){
+  .review-block {
+    max-width: 96%!important;
+}
+}
+.text-center {
+    text-align: center!important;
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+    .circular-chart {
+    display: inline-block;
+    max-width: 75px;
+    max-height: 75px;
+    margin-left: 1em;
+}
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+.circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 2.8;
+}
+.percentage {
+    fill: #666;
+    font-family: inherit;
+    font-size: 0.6em;
+    text-anchor: middle;
+}
+text {
+    display: block;
+    white-space: nowrap;
+}
+.rat_text1 {
+    font-size: 14px;
+    color: #0077b5;
+    margin-left: 10px;
+    /* bottom: -15px; */
+}
+.jd-blue .circle {
+    stroke: #3cadfe;
+}
+.facebook-green .circle {
+    stroke: #4CC790;
+}
+.google-orange .circle {
+    stroke: #ff9f00;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 2;
+    stroke-linecap: round;
+    animation: progress 2s ease-out forwards;
+}
+.up-date {
+    font-size: 14px;
+    color: #0077b5;
+    position: absolute;
+    bottom: -12px;
+    right: 2em;
+}
